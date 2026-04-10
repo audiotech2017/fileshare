@@ -9,7 +9,7 @@ const url = require('url');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const FILE_EXPIRY_HOURS = 1;
+const FILE_EXPIRY_HOURS = 48;
 
 // Create uploads directory
 const uploadsDir = path.join(__dirname, 'uploads');
